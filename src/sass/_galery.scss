@@ -1,0 +1,38 @@
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+.filter-item {
+  font-size: 50px;
+}
+
+.filter-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.active {
+  color: blue;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.galleryItem {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.gallery-link {
+  text-decoration: none;
+}
+
+.gallery-img {
+}
